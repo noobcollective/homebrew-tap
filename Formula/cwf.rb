@@ -1,9 +1,9 @@
 class Cwf < Formula
   desc "Copy and paste with friends remotely and easy"
   homepage "https://github.com/DrinoSan/cwf"
-  url "https://github.com/DrinoSan/cwf/releases/download/v0.2.5/cwf_0.2.5_darwin_arm64.tar.gz"
-  version "0.2.5"
-  sha256 "c286aa3e3cc7f68b7795e6dc518aa52f8d4455ca9da0200c3330bb43dee04af4"
+  url "https://github.com/DrinoSan/cwf/releases/download/v0.2.6/cwf_0.2.6_darwin_arm64.tar.gz"
+  version "0.2.6"
+  sha256 "f50ac1577f8853583705a1d8e3a9a3cc0edaebf60850c10ca5415f2cb7af3098"
 
   def install
     bin.install "cwf"
