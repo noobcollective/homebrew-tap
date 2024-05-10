@@ -1,4 +1,7 @@
-# ICultureBud Tap
+# iCulture's Tap
+
+## Currently available formulae.
+- [cwf](https://github.com/drinosan/cwf)
 
 ## How do I install these formulae?
 
