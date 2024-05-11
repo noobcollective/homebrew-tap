@@ -1,13 +1,13 @@
 # iCulture's Tap
 
 ## Currently available formulae.
-- [cwf](https://github.com/drinosan/cwf)
+- [cwf](https://github.com/noobcollective/cwf)
 
 ## How do I install these formulae?
 
-`brew install iculturebud/tap/<formula>`
+`brew install noobcollective/tap/<formula>`
 
-Or `brew tap iculturebud/tap` and then `brew install <formula>`.
+Or `brew tap noobcollective/tap` and then `brew install <formula>`.
 
 ## Documentation
 
