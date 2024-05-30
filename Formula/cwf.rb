@@ -5,23 +5,23 @@
 class Cwf < Formula
   desc "Copy and paste with friends remotely and easy"
   homepage "https://github.com/noobcollective/cwf"
-  version "0.4.1"
+  version "0.4.2"
   license "MIT"
 
   depends_on "go"
 
   on_macos do
     on_intel do
-      url "https://github.com/noobcollective/cwf/releases/download/v0.4.1/cwf_0.4.1_darwin_amd64.tar.gz"
-      sha256 "a76c2edbc8327abb5514211c2f186ff2ebb368a1362764a239d28a2de42630a3"
+      url "https://github.com/noobcollective/cwf/releases/download/v0.4.2/cwf_0.4.2_darwin_amd64.tar.gz"
+      sha256 "8ed9c855df31d3c62c45c7155382e53ac82e43d90a07fc27239d2130f74fb11d"
 
       def install
         bin.install "cwf"
       end
     end
     on_arm do
-      url "https://github.com/noobcollective/cwf/releases/download/v0.4.1/cwf_0.4.1_darwin_arm64.tar.gz"
-      sha256 "3f6ef2181d6ee0195bd84b3fbe1b489c3edabcbe0d5786273745b6809bfbbe76"
+      url "https://github.com/noobcollective/cwf/releases/download/v0.4.2/cwf_0.4.2_darwin_arm64.tar.gz"
+      sha256 "744d6fd439c1282f2c55bf972d9b002cd8e95d073b9815e797c9abd1734ba3c7"
 
       def install
         bin.install "cwf"
@@ -32,8 +32,8 @@ class Cwf < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/noobcollective/cwf/releases/download/v0.4.1/cwf_0.4.1_linux_amd64.tar.gz"
-        sha256 "bb08d381235cd2e8737c2cbb0f8db5d088f7fca797e0a3d4edc918af777d9be0"
+        url "https://github.com/noobcollective/cwf/releases/download/v0.4.2/cwf_0.4.2_linux_amd64.tar.gz"
+        sha256 "d24904f6f01519f838a0779d400df239c06285aec607fe1cda99b84f7de32c37"
 
         def install
           bin.install "cwf"
@@ -42,8 +42,8 @@ class Cwf < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/noobcollective/cwf/releases/download/v0.4.1/cwf_0.4.1_linux_armv6.tar.gz"
-        sha256 "6c8aa9820365bb8168acd9d5856af155c9480758e1a18f87e855962470f5262a"
+        url "https://github.com/noobcollective/cwf/releases/download/v0.4.2/cwf_0.4.2_linux_armv6.tar.gz"
+        sha256 "5ffd5ef11eab3c92f962ab551191ac2940ee49c21e4c700873d5a236aa9eecd7"
 
         def install
           bin.install "cwf"
@@ -52,8 +52,8 @@ class Cwf < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/noobcollective/cwf/releases/download/v0.4.1/cwf_0.4.1_linux_arm64.tar.gz"
-        sha256 "5c2879cd206ae393af9cfd02aab020305adba1fbd86ec5162e4119c6133af255"
+        url "https://github.com/noobcollective/cwf/releases/download/v0.4.2/cwf_0.4.2_linux_arm64.tar.gz"
+        sha256 "c47a8e40ee0893ffedbbde05a27ecf62d74a70049e4c2a1cca584710ef37d8dc"
 
         def install
           bin.install "cwf"
