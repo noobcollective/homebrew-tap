@@ -5,23 +5,23 @@
 class Reme < Formula
   desc "Setup up reminders easily in your terminal."
   homepage "https://github.com/noobcollective/reme"
-  version "0.2"
+  version "0.2.1"
   license "MIT"
 
   depends_on "go"
 
   on_macos do
     on_intel do
-      url "https://github.com/noobcollective/reme/releases/download/v0.2/reme_0.2_darwin_amd64.tar.gz"
-      sha256 "60c099c4571bf9d7f5616b41a41f00ea5cd16d49626c3ab01f1aff7a94c4f671"
+      url "https://github.com/noobcollective/reme/releases/download/v0.2.1/reme_0.2.1_darwin_amd64.tar.gz"
+      sha256 "c2262ab30b5718690c5df4cfa53ac263ca3f2588f5ad4b457bc31ebe1a0d3356"
 
       def install
         bin.install "reme"
       end
     end
     on_arm do
-      url "https://github.com/noobcollective/reme/releases/download/v0.2/reme_0.2_darwin_arm64.tar.gz"
-      sha256 "c089b1a2e74c349e1ee9b67e0c9bc112ae063e91cfdab4992c836bb4507c8ff8"
+      url "https://github.com/noobcollective/reme/releases/download/v0.2.1/reme_0.2.1_darwin_arm64.tar.gz"
+      sha256 "d4bc4f6e14c9c58fa1ef2130e1b6d761c528f61e899157dbd5d76bfe3fa3c581"
 
       def install
         bin.install "reme"
@@ -32,8 +32,8 @@ class Reme < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/noobcollective/reme/releases/download/v0.2/reme_0.2_linux_amd64.tar.gz"
-        sha256 "1882e5c31abfb742f83da9d874f5bbba057f7282bfe005399c3a16435fd104bd"
+        url "https://github.com/noobcollective/reme/releases/download/v0.2.1/reme_0.2.1_linux_amd64.tar.gz"
+        sha256 "0309712134fd33686bb9497dff804b6badd6c463472716f6a18fe29ac578b5e0"
 
         def install
           bin.install "reme"
@@ -42,8 +42,8 @@ class Reme < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/noobcollective/reme/releases/download/v0.2/reme_0.2_linux_armv6.tar.gz"
-        sha256 "8cfa34032724300074eeafb3fc0095138a24d7e195812dc8621402815be50465"
+        url "https://github.com/noobcollective/reme/releases/download/v0.2.1/reme_0.2.1_linux_armv6.tar.gz"
+        sha256 "2845c678069322a527b0eb1acbed2d09b98b645ed3ff3ae2d3cd577ce89bd863"
 
         def install
           bin.install "reme"
@@ -52,8 +52,8 @@ class Reme < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/noobcollective/reme/releases/download/v0.2/reme_0.2_linux_arm64.tar.gz"
-        sha256 "1887d071a7b44d428aec9d1d1aa9642642645b8d4f538d99c385f619c13d5fa0"
+        url "https://github.com/noobcollective/reme/releases/download/v0.2.1/reme_0.2.1_linux_arm64.tar.gz"
+        sha256 "a64e71271f1dc2c2a8a0e740804cdda60d7767927974901055a6bd06c793d974"
 
         def install
           bin.install "reme"
